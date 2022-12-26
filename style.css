@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Love+Ya+Like+A+Sister&display=swap');
+body {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url(img/signin_.jpg);
+    
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,0.6);
+}
+
+.navbar {
+    padding: 9px 41px;
+}
+
+.nav-item a {
+    color: #fff!important;
+}
+
+.nav-item a:hover {
+    color: orange !important;
+}
+
+.header {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    bottom: 5%;
+}
+
+#brand:hover {
+    color: orange!important;
+}
+
+#side {
+    padding-right: 40px;
+}
+
+#icon {
+    padding: 5px 20px;
+    border: 1px solid orange;
+    background: transparent;
+    border-radius: 31px;
+    color: orange!important;
+}
+
+#icon:hover {
+    border: none;
+    background: orange;
+    color: #fff!important;
+}
+
+#user {
+    background: transparent!important;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid orange !important;
+}
+
+#pwd {
+    background: transparent!important;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid orange !important;
+}
+
+.ui {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    font-size: 20px;
+    border: 5px solid rgb(255, 165, 0);
+    height: 65%;
+    padding: 63px 71px;
+    border-radius: 30px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#pwd::placeholder {
+    color: #fff !important;
+    font-family: sans-serif !important;
+}
+
+#user::placeholder {
+    color: #fff !important;
+    font-family: sans-serif !important;
+}
+
+#pwd:focus {
+    outline: none !important;
+}
+
+#user:focus {
+    outline: none !important;
+}
+
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 25px;
+    border: none;
+    background: orange;
+    border-radius: 31px;
+    color: white;
+}
+
+.btn:hover {
+    border: 2px solid orange;
+    background: transparent;
+    color: orange;
+}
+
+p {
+    font-family: 'Sniglet', cursive;
+}
+
+p:hover {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}
